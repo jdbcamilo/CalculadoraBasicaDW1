@@ -1,0 +1,43 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 64 64"
+  width="64"
+  height="64"
+>
+  <!-- Fondo transparente (no se dibuja ningún rectángulo) -->
+
+  <!-- Línea de fracción -->
+  <line
+    x1="16"
+    y1="32"
+    x2="48"
+    y2="32"
+    stroke="white"
+    stroke-width="3"
+    stroke-linecap="round"
+  />
+
+  <!-- Numerador -->
+  <text
+    x="32"
+    y="22"
+    text-anchor="middle"
+    font-size="16"
+    font-family="sans-serif"
+    fill="white"
+  >
+    a
+  </text>
+
+  <!-- Denominador -->
+  <text
+    x="32"
+    y="50"
+    text-anchor="middle"
+    font-size="16"
+    font-family="sans-serif"
+    fill="white"
+  >
+    b
+  </text>
+</svg>
